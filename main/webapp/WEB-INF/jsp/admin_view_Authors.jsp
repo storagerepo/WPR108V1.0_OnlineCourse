@@ -13,7 +13,7 @@
                     <img src="resources/images/authors/authors-icon.png" class="admin_student_image"/></td>
                         <td width="50%" align="left"><span class="admin_view_student_text1">Author List</span></td>
                         <td width="42.5%" align="right">
-                       <a href="#" class="btn btn-default add-to-cart" id="top_button"><i class="fa fa-plus"></i>Add Author</a><br/> 
+                       <a href="admin_add_Author" class="btn btn-default add-to-cart" id="top_button"><i class="fa fa-plus"></i>Add Author</a><br/> 
 											</td></tr></table>
           <hr>
 						<!-- <h2 ><img src="resources/images/global/course-icon.png" class="admin_student_image"/>Features Items</h2> -->

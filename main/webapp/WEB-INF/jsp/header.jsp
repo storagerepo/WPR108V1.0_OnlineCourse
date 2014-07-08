@@ -67,22 +67,22 @@
        
           <ul class="nav navbar-nav navbar-right navbar-user" >
           <li class="dropdown messages-dropdown" style="color:#fff;" >
-              <a href="#" class="dropdown-toggle" ><i class="fa fa-home"></i> Home  </a>
+              <a href="home" class="dropdown-toggle" ><i class="fa fa-home"></i> Home  </a>
               </li>
             <li class="dropdown messages-dropdown" style="color:#fff;" >
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-file"></i> Courses <span class="badge">157</span> <b class="caret"></b></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-file"></i> Courses <span class="badge">1507</span> <b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <!-- <li class="dropdown-header">7 New Messages</li> -->
                 <li class="message-preview">
                  <div id="menuCoursecat">
 <ul>
 
-<li><a href="#">
+<li><a href="allcourses">
                     <span class="avatar"><img src="resources/images/home/logo_img.png" alt="" /></span>
                     <span class="name">View All Courses</span>
                    
                   </a></li>
-<li><a href="#">
+<li><a href="allcourses">
                     <span class="avatar"><img src="resources/images/home/logo_img.png" alt="" /></span>
                     <span class="name">View Free Courses</span>
                      </a></li>
@@ -181,10 +181,10 @@
               </ul>
             </li>
             <li class="dropdown messages-dropdown" style="color:#fff;" >
-              <a href="#" class="dropdown-toggle" ><i class="fa fa-key"></i>&nbsp;Signup  </a>
+              <a href="signup" class="dropdown-toggle" ><i class="fa fa-key"></i>&nbsp;Signup  </a>
               </li>
             <li class="dropdown messages-dropdown" style="color:#fff;" >
-              <a href="#" class="dropdown-toggle" ><i class="fa fa-lock"></i>&nbsp;Sign In  </a>
+              <a href="signup" class="dropdown-toggle" ><i class="fa fa-lock"></i>&nbsp;Sign In  </a>
               </li>
           </ul><br/><br/>
         </div><!-- /.navbar-collapse -->

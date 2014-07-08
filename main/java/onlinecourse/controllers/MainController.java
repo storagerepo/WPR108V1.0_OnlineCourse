@@ -120,6 +120,26 @@ public class MainController {
 		return "admin_view_Course_Couponcodes";
  
 	}
+	/*not yet connected*/
+	@RequestMapping(value={"/admin_add_Course_Sub"}, method = RequestMethod.GET)
+	public String admin_add_Course_Sub(ModelMap model, Principal principal ) {
+		
+		
+		
+		return "admin_add_Course_Sub";
+ 
+	}
+	@RequestMapping(value={"/admin_view_Course_Bundle"}, method = RequestMethod.GET)
+	public String admin_view_Course_Bundle(ModelMap model, Principal principal ) {
+		
+		
+		
+		return "admin_view_Course_Bundle";
+ 
+	}
+	
+	/*not yet connected*/
+	
 	@RequestMapping(value={"/admin_view_Authors"}, method = RequestMethod.GET)
 	public String admin_view_Authors(ModelMap model, Principal principal ) {
 		
@@ -137,14 +157,7 @@ public class MainController {
  
 	}
 	
-	@RequestMapping(value={"/test"}, method = RequestMethod.GET)
-	public String test(ModelMap model, Principal principal ) {
-		
-		
-		
-		return "test";
- 
-	}
+	
 	@RequestMapping(value={"/admin_add_Site_Style"}, method = RequestMethod.GET)
 	public String admin_add_Site_Style(ModelMap model, Principal principal ) {
 		
@@ -175,6 +188,15 @@ public class MainController {
 		
 		
 		return "admin_add_Site_Header";
+ 
+	}
+	
+	@RequestMapping(value={"/admin_view_Site_Header"}, method = RequestMethod.GET)
+	public String admin_view_Site_Header(ModelMap model, Principal principal ) {
+		
+		
+		
+		return "admin_view_Site_Header";
  
 	}
 	@RequestMapping(value={"/admin_add_Site_Footer"}, method = RequestMethod.GET)
@@ -249,14 +271,7 @@ public class MainController {
 		return "admin_view_Allmycourses";
  
 	}
-	@RequestMapping(value={"/admin_sidemenu_Site"}, method = RequestMethod.GET)
-	public String admin_sidemenu_Site(ModelMap model, Principal principal ) {
-		
-		
-		
-		return "admin_sidemenu_Site";
- 
-	}
+	
 	@RequestMapping(value={"/admin_view_Dashboard"}, method = RequestMethod.GET)
 	public String admin_view_Dashboard(ModelMap model, Principal principal ) {
 		
@@ -266,4 +281,15 @@ public class MainController {
  
 	}
 	
+	/*test page and please do not touch::Starts*/
+	
+	@RequestMapping(value={"/test"}, method = RequestMethod.GET)
+	public String test(ModelMap model, Principal principal ) {
+		
+		
+		
+		return "test";
+ 
+	}
+	/*test page and please do not touch::Ends*/
   }

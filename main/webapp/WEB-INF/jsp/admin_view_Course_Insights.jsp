@@ -18,57 +18,314 @@
           <hr>
 						<!-- <h2 ><img src="resources/images/global/course-icon.png" class="admin_student_image"/>Features Items</h2> -->
 							<div class="col-sm-12">
-<span class="AL_admin_createcourse_regformtable2td">Insights  Info</span><br/>
+<span class="AL_admin_createcourse_regformtable2td">Average Completions</span><br/>
 <input type="text" id="filter_text_admin_view_student" class="light-table-filter" data-table="admin_view_authors_listtable"value="" placeholder="Type to filter"/>
 <br/>
 <br/>
 <div class="view_page_scroll_div">
 <table  border="1" class="admin_view_authors_listtable" >
 <tr>
-<th style="">Title</th>
-<th style="">URL</th>
-<th style="">Actions</th></tr>
+<th style="">Segment</th>
+<th style="">Number</th>
+<th style="">Average Completion</th></tr>
 <tr><td width="42%" style="">test title</td>
-<td width="16%" style=""></td>
-<td width="42%" style=""><span class="label label-edit">Edit</span><span class="label label-delete">Delete</span></td></tr>
+<td width="16%" style="">2500</td>
+<td width="42%" style="">95%</td></tr>
+<tr><td width="42%" style="">test title</td>
+<td width="16%" style="">2500</td>
+<td width="42%" style="">95%</td></tr>
+<tr><td width="42%" style="">test title</td>
+<td width="16%" style="">2500</td>
+<td width="42%" style="">95%</td></tr>
+<tr><td width="42%" style="">test title</td>
+<td width="16%" style="">2500</td>
+<td width="42%" style="">95%</td></tr>
+<tr><td width="42%" style="">test title</td>
+<td width="16%" style="">2500</td>
+<td width="42%" style="">95%</td></tr>
+<tr><td width="42%" style="">test title</td>
+<td width="16%" style="">2500</td>
+<td width="42%" style="">95%</td></tr>
+<tr><td width="42%" style="">test title</td>
+<td width="16%" style="">2500</td>
+<td width="42%" style="">95%</td></tr>
+<tr><td width="42%" style="">test title</td>
+<td width="16%" style="">2500</td>
+<td width="42%" style="">95%</td></tr>
+<tr><td width="42%" style="">test title</td>
+<td width="16%" style="">2500</td>
+<td width="42%" style="">95%</td></tr>
+<tr><td width="42%" style="">test title</td>
+<td width="16%" style="">2500</td>
+<td width="42%" style="">95%</td></tr>
+<tr><td width="42%" style="">test title</td>
+<td width="16%" style="">2500</td>
+<td width="42%" style="">95%</td></tr>
+<tr><td width="42%" style="">test title</td>
+<td width="16%" style="">2500</td>
+<td width="42%" style="">95%</td></tr>
 
 </table>
 </div>
 <!-- ######################################3Table two#################################################### -->
 <br/>
-<span class="AL_admin_createcourse_regformtable2td">Insights  Info</span><br/>
+<span class="AL_admin_createcourse_regformtable2td">Lecture Video Completion</span><br/>
 <input type="text" id="filter_text_admin_view_student" class="light-table-filter" data-table="admin_view_authors_listtable"value="" placeholder="Type to filter"/>
 
 <div class="view_page_scroll_div">
 <table  border="1" class="admin_view_authors_listtable" >
 <tr>
-<th style="">Title</th>
-<th style="">Title</th>
-<th style="">URL</th>
-<th style="">Actions</th></tr>
+<th style="">Lecture</th>
+<th style="">Plays</th>
+<th style="">Percent of video Watched</th>
+<th style="">Hours Watched</th></tr>
 <tr><td width="17%" style="">test title</td>
 <td width="30%" style="">test title</td>
 <td width="36%" style="">http://hostname:port/pagename/pagename</td>
-<td width="17%" style=""><span class="label label-edit">Edit</span><span class="label label-delete">Delete</span></td></tr>
+<td width="17%" style="">25 hours</td></tr>
+<tr><td width="17%" style="">test title</td>
+<td width="30%" style="">test title</td>
+<td width="36%" style="">http://hostname:port/pagename/pagename</td>
+<td width="17%" style="">25 hours</td></tr>
+<tr><td width="17%" style="">test title</td>
+<td width="30%" style="">test title</td>
+<td width="36%" style="">http://hostname:port/pagename/pagename</td>
+<td width="17%" style="">25 hours</td></tr>
+<tr><td width="17%" style="">test title</td>
+<td width="30%" style="">test title</td>
+<td width="36%" style="">http://hostname:port/pagename/pagename</td>
+<td width="17%" style="">25 hours</td></tr>
+<tr><td width="17%" style="">test title</td>
+<td width="30%" style="">test title</td>
+<td width="36%" style="">http://hostname:port/pagename/pagename</td>
+<td width="17%" style="">25 hours</td></tr>
+<tr><td width="17%" style="">test title</td>
+<td width="30%" style="">test title</td>
+<td width="36%" style="">http://hostname:port/pagename/pagename</td>
+<td width="17%" style="">25 hours</td></tr>
+<tr><td width="17%" style="">test title</td>
+<td width="30%" style="">test title</td>
+<td width="36%" style="">http://hostname:port/pagename/pagename</td>
+<td width="17%" style="">25 hours</td></tr>
+<tr><td width="17%" style="">test title</td>
+<td width="30%" style="">test title</td>
+<td width="36%" style="">http://hostname:port/pagename/pagename</td>
+<td width="17%" style="">25 hours</td></tr>
+<tr><td width="17%" style="">test title</td>
+<td width="30%" style="">test title</td>
+<td width="36%" style="">http://hostname:port/pagename/pagename</td>
+<td width="17%" style="">25 hours</td></tr>
+<tr><td width="17%" style="">test title</td>
+<td width="30%" style="">test title</td>
+<td width="36%" style="">http://hostname:port/pagename/pagename</td>
+<td width="17%" style="">25 hours</td></tr>
+<tr><td width="17%" style="">test title</td>
+<td width="30%" style="">test title</td>
+<td width="36%" style="">http://hostname:port/pagename/pagename</td>
+<td width="17%" style="">25 hours</td></tr>
+<tr><td width="17%" style="">test title</td>
+<td width="30%" style="">test title</td>
+<td width="36%" style="">http://hostname:port/pagename/pagename</td>
+<td width="17%" style="">25 hours</td></tr>
+<tr><td width="17%" style="">test title</td>
+<td width="30%" style="">test title</td>
+<td width="36%" style="">http://hostname:port/pagename/pagename</td>
+<td width="17%" style="">25 hours</td></tr>
+<tr><td width="17%" style="">test title</td>
+<td width="30%" style="">test title</td>
+<td width="36%" style="">http://hostname:port/pagename/pagename</td>
+<td width="17%" style="">25 hours</td></tr>
+<tr><td width="17%" style="">test title</td>
+<td width="30%" style="">test title</td>
+<td width="36%" style="">http://hostname:port/pagename/pagename</td>
+<td width="17%" style="">25 hours</td></tr>
+<tr><td width="17%" style="">test title</td>
+<td width="30%" style="">test title</td>
+<td width="36%" style="">http://hostname:port/pagename/pagename</td>
+<td width="17%" style="">25 hours</td></tr>
+<tr><td width="17%" style="">test title</td>
+<td width="30%" style="">test title</td>
+<td width="36%" style="">http://hostname:port/pagename/pagename</td>
+<td width="17%" style="">25 hours</td></tr>
+<tr><td width="17%" style="">test title</td>
+<td width="30%" style="">test title</td>
+<td width="36%" style="">http://hostname:port/pagename/pagename</td>
+<td width="17%" style="">25 hours</td></tr>
+<tr><td width="17%" style="">test title</td>
+<td width="30%" style="">test title</td>
+<td width="36%" style="">http://hostname:port/pagename/pagename</td>
+<td width="17%" style="">25 hours</td></tr>
+<tr><td width="17%" style="">test title</td>
+<td width="30%" style="">test title</td>
+<td width="36%" style="">http://hostname:port/pagename/pagename</td>
+<td width="17%" style="">25 hours</td></tr>
+<tr><td width="17%" style="">test title</td>
+<td width="30%" style="">test title</td>
+<td width="36%" style="">http://hostname:port/pagename/pagename</td>
+<td width="17%" style="">25 hours</td></tr>
+<tr><td width="17%" style="">test title</td>
+<td width="30%" style="">test title</td>
+<td width="36%" style="">http://hostname:port/pagename/pagename</td>
+<td width="17%" style="">25 hours</td></tr>
+<tr><td width="17%" style="">test title</td>
+<td width="30%" style="">test title</td>
+<td width="36%" style="">http://hostname:port/pagename/pagename</td>
+<td width="17%" style="">25 hours</td></tr>
+<tr><td width="17%" style="">test title</td>
+<td width="30%" style="">test title</td>
+<td width="36%" style="">http://hostname:port/pagename/pagename</td>
+<td width="17%" style="">25 hours</td></tr>
+<tr><td width="17%" style="">test title</td>
+<td width="30%" style="">test title</td>
+<td width="36%" style="">http://hostname:port/pagename/pagename</td>
+<td width="17%" style="">25 hours</td></tr>
+<tr><td width="17%" style="">test title</td>
+<td width="30%" style="">test title</td>
+<td width="36%" style="">http://hostname:port/pagename/pagename</td>
+<td width="17%" style="">25 hours</td></tr>
+<tr><td width="17%" style="">test title</td>
+<td width="30%" style="">test title</td>
+<td width="36%" style="">http://hostname:port/pagename/pagename</td>
+<td width="17%" style="">25 hours</td></tr>
+<tr><td width="17%" style="">test title</td>
+<td width="30%" style="">test title</td>
+<td width="36%" style="">http://hostname:port/pagename/pagename</td>
+<td width="17%" style="">25 hours</td></tr>
+<tr><td width="17%" style="">test title</td>
+<td width="30%" style="">test title</td>
+<td width="36%" style="">http://hostname:port/pagename/pagename</td>
+<td width="17%" style="">25 hours</td></tr>
+<tr><td width="17%" style="">test title</td>
+<td width="30%" style="">test title</td>
+<td width="36%" style="">http://hostname:port/pagename/pagename</td>
+<td width="17%" style="">25 hours</td></tr>
+<tr><td width="17%" style="">test title</td>
+<td width="30%" style="">test title</td>
+<td width="36%" style="">http://hostname:port/pagename/pagename</td>
+<td width="17%" style="">25 hours</td></tr>
+<tr><td width="17%" style="">test title</td>
+<td width="30%" style="">test title</td>
+<td width="36%" style="">http://hostname:port/pagename/pagename</td>
+<td width="17%" style="">25 hours</td></tr>
+<tr><td width="17%" style="">test title</td>
+<td width="30%" style="">test title</td>
+<td width="36%" style="">http://hostname:port/pagename/pagename</td>
+<td width="17%" style="">25 hours</td></tr>
+<tr><td width="17%" style="">test title</td>
+<td width="30%" style="">test title</td>
+<td width="36%" style="">http://hostname:port/pagename/pagename</td>
+<td width="17%" style="">25 hours</td></tr>
+<tr><td width="17%" style="">test title</td>
+<td width="30%" style="">test title</td>
+<td width="36%" style="">http://hostname:port/pagename/pagename</td>
+<td width="17%" style="">25 hours</td></tr>
+<tr><td width="17%" style="">test title</td>
+<td width="30%" style="">test title</td>
+<td width="36%" style="">http://hostname:port/pagename/pagename</td>
+<td width="17%" style="">25 hours</td></tr>
 </table>
 </div>
 <!-- ######################################3Table three#################################################### -->
 <br/>
-<span class="AL_admin_createcourse_regformtable2td">Insights  Info</span><br/>
+<span class="AL_admin_createcourse_regformtable2td">Course Completion Breakdown </span><br/>
 <input type="text" id="filter_text_admin_view_student" class="light-table-filter" data-table="admin_view_authors_listtable"value="" placeholder="Type to filter"/>
 
 <div class="view_page_scroll_div">
 <table  border="1" class="admin_view_authors_listtable" >
 <tr>
-<th style="">Title</th>
-<th style="">Title</th>
-<th style="">URL</th>
-<th style="">Actions</th></tr>
-<tr><td width="17%" style="">test title</td>
-<td width="30%" style=""></td>
-<td width="36%" style=""></td>
-<td width="17%" style=""><span class="label label-edit">Edit</span><span class="label label-delete">Delete</span></td></tr>
+<th style="">Course Completion</th>
+<th style="">All Users</th>
+<th style="">Free Users</th>
+<th style="">Paid Users</th></tr>
+<tr><td width="17%" style="">15%</td>
+<td width="30%" style="">15%</td>
+<td width="36%" style="">15%</td>
+<td width="17%" style="">15%</td></tr>
 
+<tr><td width="17%" style="">15%</td>
+<td width="30%" style="">15%</td>
+<td width="36%" style="">15%</td>
+<td width="17%" style="">15%</td></tr>
+
+<tr><td width="17%" style="">15%</td>
+<td width="30%" style="">15%</td>
+<td width="36%" style="">15%</td>
+<td width="17%" style="">15%</td></tr>
+
+<tr><td width="17%" style="">15%</td>
+<td width="30%" style="">15%</td>
+<td width="36%" style="">15%</td>
+<td width="17%" style="">15%</td></tr>
+
+<tr><td width="17%" style="">15%</td>
+<td width="30%" style="">15%</td>
+<td width="36%" style="">15%</td>
+<td width="17%" style="">15%</td></tr>
+
+<tr><td width="17%" style="">15%</td>
+<td width="30%" style="">15%</td>
+<td width="36%" style="">15%</td>
+<td width="17%" style="">15%</td></tr>
+
+<tr><td width="17%" style="">15%</td>
+<td width="30%" style="">15%</td>
+<td width="36%" style="">15%</td>
+<td width="17%" style="">15%</td></tr>
+
+<tr><td width="17%" style="">15%</td>
+<td width="30%" style="">15%</td>
+<td width="36%" style="">15%</td>
+<td width="17%" style="">15%</td></tr>
+
+<tr><td width="17%" style="">15%</td>
+<td width="30%" style="">15%</td>
+<td width="36%" style="">15%</td>
+<td width="17%" style="">15%</td></tr>
+
+<tr><td width="17%" style="">15%</td>
+<td width="30%" style="">15%</td>
+<td width="36%" style="">15%</td>
+<td width="17%" style="">15%</td></tr>
+
+<tr><td width="17%" style="">15%</td>
+<td width="30%" style="">15%</td>
+<td width="36%" style="">15%</td>
+<td width="17%" style="">15%</td></tr>
+
+<tr><td width="17%" style="">15%</td>
+<td width="30%" style="">15%</td>
+<td width="36%" style="">15%</td>
+<td width="17%" style="">15%</td></tr>
+
+<tr><td width="17%" style="">15%</td>
+<td width="30%" style="">15%</td>
+<td width="36%" style="">15%</td>
+<td width="17%" style="">15%</td></tr>
+
+<tr><td width="17%" style="">15%</td>
+<td width="30%" style="">15%</td>
+<td width="36%" style="">15%</td>
+<td width="17%" style="">15%</td></tr>
+
+<tr><td width="17%" style="">15%</td>
+<td width="30%" style="">15%</td>
+<td width="36%" style="">15%</td>
+<td width="17%" style="">15%</td></tr>
+
+<tr><td width="17%" style="">15%</td>
+<td width="30%" style="">15%</td>
+<td width="36%" style="">15%</td>
+<td width="17%" style="">15%</td></tr>
+
+<tr><td width="17%" style="">15%</td>
+<td width="30%" style="">15%</td>
+<td width="36%" style="">15%</td>
+<td width="17%" style="">15%</td></tr>
+
+<tr><td width="17%" style="">15%</td>
+<td width="30%" style="">15%</td>
+<td width="36%" style="">15%</td>
+<td width="17%" style="">15%</td></tr>
 
 </table>
 </div>

@@ -60,48 +60,41 @@ $(document).ready(function() {
 				<div class="col-sm-9 padding-right">
 					<div class="features_items"><!--features_items-->
 					<table  border="0" class="students_admin_view_table1"><tr><td width="5%" align="left">
-                    <img src="resources/images/sites/header.jpg" class="admin_student_image"/></td>
-                        <td width="50%" align="left"><span class="admin_view_student_text1">Add Header Link</span></td>
+                    <img src="resources/images/courses/syllabus.png" class="admin_student_image"/></td>
+                        <td width="50%" align="left"><span class="admin_view_student_text1">Syllabus Info</span></td>
                         <td width="42.5%" align="right">
                         <!-- <a href="#" class="btn btn-default add-to-cart" id="top_button"><i class="fa fa-check"></i>Publish Course</a><br/>
 						 -->					</td></tr></table>
           <hr>
 						<!-- <h2 ><img src="resources/images/global/course-icon.png" class="admin_student_image"/>Features Items</h2> -->
 							<div class="col-sm-12">
-<span class="AL_admin_createcourse_regformtable2td">Course  Details</span>
+<span class="AL_admin_createcourse_regformtable2td">Add Syllabus Files</span>
 <span class="underline"></span>
+
 <table  border="0" class="AL_admin_createcourse_regformtable1" >
 
-<tr><td width="29%" class="AL_admin_createcourse_regformtable1td">&nbsp;Link Name:</td>
-<td width="67%" class="AL_admin_createcourse_regformtable1td">
-<input type="text" name="admin_AL_CC_coursename" value="" placeholder="New Link"class="AL_admin_createcourse_textbx1"/></td>
+<tr>
+<td width="96%" class="AL_admin_createcourse_regformtable1td">
+<table><tr><td align="right">
+<input class="file-upload" type="file" accept="image/*" style="visibility: hidden;"/>
+<img class="profile-pic" id="upload-button" src="resources/images/global/course_image.png" /></td>
+<td class="upload_instd"> <div class="upload_ins">Please click on the image to upload Your Course image</div></td></tr></table></td>
 </tr>
-<tr><td width="29%" class="AL_admin_createcourse_regformtable1td">&nbsp;Link URL:</td>
-<td width="67%" class="AL_admin_createcourse_regformtable1td"><input type="text" name="admin_AL_CC_coursename" value="" placeholder="http://"class="AL_admin_createcourse_textbx1"/></td>
-</tr>
-<tr><td width="29%" class="AL_admin_createcourse_regformtable1td">&nbsp;Visibility:</td>
-<td width="67%" class="AL_admin_createcourse_regformtable1td">
-<select name="" class="AL_admin_createcourse_selectbx2">
-<option value="Logged in & Non logged in">Logged in & Non logged in</option>
-<option value="Logged in only">Logged in only</option>
-<option value="Non Logged in only">Non Logged in only</option>
-</select></td>
-</tr>
-<tr><td width="29%" class="AL_admin_createcourse_regformtable1td">&nbsp;Open in new tab</td>
-<td width="67%" class="AL_admin_createcourse_regformtable1td">
-<select name="" class="AL_admin_createcourse_selectbx2">
-<option value="True">True</option>
-<option value="False">False</option>
-</select></td>
-</tr>
+
 
 </table>
 
      <table  border="0" class="AL_admin_createcourse_regformtable1" style="border:none;">
 
 <tr>
-<td width="96%" class="AL_admin_createcourse_regformtable1td2"><br>
-<input type="submit" class="btn btn-default btn-lg btn-block" id="btnmine"value="Save changes to Header Link"/>
+<td width="32%" class="AL_admin_createcourse_regformtable1td2">
+<input type="submit" class="btn btn-default btn-lg btn-block" id="btnmine"value="Add New Lecture"/>
+</td>
+<td width="32%" class="AL_admin_createcourse_regformtable1td2">
+<input type="submit" class="btn btn-default btn-lg btn-block" id="btnmine"value="Add New Section"/>
+</td>
+<td width="32%" class="AL_admin_createcourse_regformtable1td2">
+<input type="submit" class="btn btn-default btn-lg btn-block" id="btnmine"value="Bulk Lecture Upload"/>
 </td></tr>
 </table>  <br/><br/>           
 					</div><!--features_items-->

@@ -4259,6 +4259,20 @@ color:#666;
 	border:2px solid #3bb9ff;
 	outline:none;
 }
+.AL_admin_createcourse_selectbx2{
+	width:100%;
+	border:2px solid #ccc;
+	color:#666;
+	height:38px;
+	padding:0 0% 0 15px ;
+	border-radius:5px;
+	margin:0 0 5px 0;
+	background:#fff;
+}
+.AL_admin_createcourse_selectbx2:hover,.AL_admin_createcourse_selectbx2:focus{
+	border:2px solid #3bb9ff;
+	outline:none;
+}
 .AL_admin_createcourse_textarea1{
 	width:100%;
 	border:2px solid #ccc;
@@ -4444,6 +4458,9 @@ thead{
 	font-size:100%;
 	
 }
+
+/*progress bar*/
+
 /* 
 @media(max-width:767px){}
 @media(min-width:768px) and (max-width:991px){	}

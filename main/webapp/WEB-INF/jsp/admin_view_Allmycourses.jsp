@@ -2,7 +2,11 @@
 <section><br/>
 		<div class="container">
 			<div class="row">
+			
+					
+				
 				<div class="col-sm-3">
+				<jsp:include page="sidemenu.jsp"></jsp:include>
 					<div class="left-sidebar">
 					<div class="brands_products"><!--brands_products-->
 							<h2>Course Choice</h2>
@@ -137,9 +141,9 @@
 						<div class="shipping text-center"><!--shipping--><h2>Create School</h2>
 							<img src="resources/images/home/shipping.jpg" alt="" width="100%" />
 						</div>
-						<div class="shipping text-center"><!--shipping--><h2>Join as Student</h2>
+						<!-- <div class="shipping text-center">shipping<h2>Join as Student</h2>
 							<img src="resources/images/home/studentmale.png" alt="" width="100%" />
-						</div>
+						</div> -->
 						<div class="shipping text-center"><!--shipping--><h2>Tech support</h2>
 							<a href="#"><img src="resources/images/home/tech.jpg" alt="" width="100%" /></a>
 						</div>
