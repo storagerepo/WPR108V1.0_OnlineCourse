@@ -138,7 +138,7 @@
 							<img src="resources/images/home/shipping.jpg" alt="" width="100%" />
 						</div>
 						<div class="shipping text-center"><!--shipping--><h2>Join as Student</h2>
-							<img src="resources/images/home/studentmale.png" alt="" width="100%" />
+							<img src="resources/images/global/home-girl.png" alt="" width="100%" />
 						</div>
 						<div class="shipping text-center"><!--shipping--><h2>Tech support</h2>
 							<a href="#"><img src="resources/images/home/tech.jpg" alt="" width="100%" /></a>

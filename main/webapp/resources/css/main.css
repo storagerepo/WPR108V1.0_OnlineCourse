@@ -586,13 +586,15 @@ ul.sub-menu {
 }
 
 .carousel-indicators li {
+	padding:0 0 10px 0;
   background: #0066ff;
 }
 
 .carousel-indicators li.active {
 	 /*  background: #FE980F; */
 	  /* background: blue; */
-	  border-top:2px solid #3bb9ff;
+	  border-top:4px solid #3bb9ff;
+	  padding:0 0 10px 0;
 }
 #tab2{
 	background:url(../images/home/stu.png) no-repeat;
@@ -669,7 +671,7 @@ ul.sub-menu {
 
 .control-carousel {
   position: absolute;
-  top: 30%;
+  top: 35%;
   font-size: 60px;
   color: #C2C2C1;
 }
@@ -2773,7 +2775,7 @@ h2.title {
 
 }
 .ch-item:read-only {
-    margin: 0px 0 0 10px;
+    margin: 0px 0 0 -90px;
     
     width: 130%;
     height: 130%;
@@ -3012,7 +3014,7 @@ h2.title {
 
 }
 .ch-item:read-only {
-    margin: 0px 0 0 10px;
+    margin: 0px 0 0 -90px;
     
     width: 130%;
     height: 130%;
@@ -3250,7 +3252,7 @@ h2.title {
 
 }
 .ch-item:read-only {
-    margin: 0px 0 0 10px;
+    margin: 0px 0 0 -55%;
     
     width: 130%;
     height: 130%;
@@ -3469,7 +3471,7 @@ h2.title {
 	
 	
 }
-	@media(min-width:1200px){	
+@media(min-width:1200px){	
 	/*circle effects*/
 
 .ch-item {
@@ -3488,7 +3490,7 @@ h2.title {
 
 }
 .ch-item:read-only {
-    margin: 0px 0 0 10px;
+    margin: 0px 0 0 -55%;
     
     width: 130%;
     height: 130%;
