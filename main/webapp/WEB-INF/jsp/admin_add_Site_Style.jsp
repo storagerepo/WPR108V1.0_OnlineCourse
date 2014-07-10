@@ -163,7 +163,7 @@ $(document).ready(function() {
 </tr>
 <tr><td width="29%" class="AL_admin_createcourse_regformtable1td">&nbsp;NavBar Color</td>
 <td width="67%" class="AL_admin_createcourse_regformtable1td">
-<input class="color_picker_admin_site_style4"/></tr>
+<input class="color_picker_admin_site_style4"/></td></tr>
 
 <tr><td width="29%" class="AL_admin_createcourse_regformtable1td">&nbsp;NavBar Active color </td>
 <td width="67%" class="AL_admin_createcourse_regformtable1td">

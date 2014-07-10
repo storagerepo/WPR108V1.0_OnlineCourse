@@ -53,13 +53,13 @@
 							<div class="panel panel-default">
 								<div class="panel-heading">
 									<h4 class="panel-title">
-										<a data-toggle="collapse" data-parent="#accordian" href="#sportswear">
+										<a data-toggle="collapse" data-parent="#accordian" href="#mens">
 											<span class="badge pull-right"><i class="fa fa-plus"></i></span>
 											<i class="fa fa-cloud"style=" font-size:21px;padding:0 15px 0 0;"></i>Site
 										</a>
 									</h4>
 								</div>
-								<div id="sportswear" class="panel-collapse collapse">
+								<div id="mens" class="panel-collapse collapse">
 									<div class="panel-body">
 										<ul>
 											<li><a href="admin_add_Site_Style">Style </a></li>
