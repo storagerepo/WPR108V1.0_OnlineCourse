@@ -270,7 +270,22 @@ a#scrollUp i{
   background-repeat: no-repeat;
   background-position: 130px;
 }
+/* #########################################vaLIDATION###################################################### */
+#DHTMLgoodies_formTooltipDiv{
+	color:#FFF;
+	font-family:arial;
+	font-weight:bold;
+	font-size:0.8em;
+	line-height:120%;
+}
+.DHTMLgoodies_formTooltip_closeMessage{
+	color:#FFF;
+	font-weight:normal;
+	font-size:0.7em;
+}
 
+
+/* #########################################vaLIDATION###################################################### */
 
 /*  Dropdown menu*/
 
@@ -901,7 +916,14 @@ h2.title {
 	height:360px;
 	max-height:360px;
 }
-
+.dashboard-image-wrapper{
+	border:2px solid #eee;
+	overflow: hidden;
+	margin-bottom:30px;
+	height:200px;
+	max-height:360px;
+	border-radius:5px;
+}
 .single-products {
   position: relative;
 }
@@ -940,7 +962,11 @@ h2.title {
   height:100px;
   margin-top:3px;
 }
-
+.productinfo .img1{
+  width: 100%;
+  height:120px;
+  margin-top:3px;
+}
 .productinfo{
  position:relative;
 }
@@ -4460,7 +4486,11 @@ thead{
 	font-size:100%;
 	
 }
-
+.profile_image
+{
+	width:40px;
+	height:40px;
+}
 /*progress bar*/
 
 /* 

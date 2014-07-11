@@ -166,6 +166,14 @@ public class MainController {
 		return "admin_add_Site_Style";
  
 	}
+	@RequestMapping(value={"/admin_add_Site_Style"}, method = RequestMethod.POST)
+	public String admin_add_Site_Stylepost(ModelMap model, Principal principal ) {
+		
+		
+		
+		return "admin_add_Site_Style";
+ 
+	}
 	@RequestMapping(value={"/admin_add_Site_Domain"}, method = RequestMethod.GET)
 	public String admin_add_Site_Domain(ModelMap model, Principal principal ) {
 		
@@ -280,11 +288,74 @@ public class MainController {
 		return "admin_view_Dashboard";
  
 	}
+	/*instructor specific*/
+	
+	@RequestMapping(value={"/instructor_view_Profile"}, method = RequestMethod.GET)
+	public String instructor_view_Profile(ModelMap model, Principal principal ) {
+		
+		
+		
+		return "instructor_view_Profile";
+ 
+	}
+	/*super admin specific*/
+	@RequestMapping(value={"/superadmin_view_Dashboard"}, method = RequestMethod.GET)
+	public String superadmin_view_Dashboard(ModelMap model, Principal principal ) {
+		
+		
+		
+		return "superadmin_view_Dashboard";
+ 
+	}
+	
+	
+	/*student specific Actions*/
+	@RequestMapping(value={"/student_view_Course"}, method = RequestMethod.GET)
+	public String student_view_Course(ModelMap model, Principal principal ) {
+		
+		
+		
+		return "student_view_Course";
+ 
+	}
+	
+	@RequestMapping(value={"/student_view_Profile"}, method = RequestMethod.GET)
+	public String student_view_Profile(ModelMap model, Principal principal ) {
+		
+		
+		
+		return "student_view_Profile";
+ 
+	}
+	
+	@RequestMapping(value={"/student_view_Mycourses"}, method = RequestMethod.GET)
+	public String student_view_mycourses(ModelMap model, Principal principal ) {
+		
+		
+		
+		return "student_view_Mycourses";
+ 
+	}
+	
+	@RequestMapping(value={"/student_view_Myfavorities"}, method = RequestMethod.GET)
+	public String student_view_myfavorities(ModelMap model, Principal principal ) {
+		
+		return "student_view_Myfavorities";
+		
+	}
 	
 	/*test page and please do not touch::Starts*/
 	
 	@RequestMapping(value={"/test"}, method = RequestMethod.GET)
 	public String test(ModelMap model, Principal principal ) {
+		
+		
+		
+		return "test";
+ 
+	}
+	@RequestMapping(value={"/test"}, method = RequestMethod.POST)
+	public String testpost(ModelMap model, Principal principal ) {
 		
 		
 		

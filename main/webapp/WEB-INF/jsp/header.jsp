@@ -27,6 +27,8 @@
 <script type="text/javascript" src="<c:url value="/resources/js/jscolor2.js"/>"></script>
 <script type="text/javascript" src="<c:url value="/resources/js/jscolor3.js"/>"></script>
 <script type="text/javascript" src="<c:url value="/resources/js/jscolor4.js"/>"></script>
+
+
     <!-- Bootstrap core CSS -->
     <link href="resources/css/bootstrap.css" rel="stylesheet">
 

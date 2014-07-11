@@ -109,6 +109,7 @@ $(document).ready(function() {
           <hr>
 						<!-- <h2 ><img src="resources/images/global/course-icon.png" class="admin_student_image"/>Features Items</h2> -->
 							<div class="col-sm-12">
+							
 <span class="AL_admin_createcourse_regformtable2td">General  Details</span>
 <span class="underline"></span>
 <table  border="0" class="AL_admin_createcourse_regformtable1" >
@@ -140,7 +141,8 @@ $(document).ready(function() {
 <textarea name="admin_AL_CC_coursename"  placeholder="..."class="AL_admin_createcourse_textarea1"/></textarea></td>
 </tr> -->
 <tr><td width="29%" class="AL_admin_createcourse_regformtable1td">&nbsp;Button Class</td>
-<td width="67%" class="AL_admin_createcourse_regformtable1td"><input type="text" name="admin_AL_CC_coursename" value="" placeholder="..."class="AL_admin_createcourse_textbx1"/></td>
+<td width="67%" class="AL_admin_createcourse_regformtable1td">
+<input type="text" value="" id="lastname" name="lastname" tooltipText="Type in your last name in this box"class="AL_admin_createcourse_textbx1"/></td>
 </tr>
 <!-- <tr><td width="29%" class="AL_admin_createcourse_regformtable1td">&nbsp;Price</td>
 <td width="67%" class="AL_admin_createcourse_regformtable1td"><input type="text" name="admin_AL_CC_coursename" value="" placeholder="..."class="AL_admin_createcourse_textbx1"/></td>
@@ -223,4 +225,5 @@ $(document).ready(function() {
 		</div>
 	</section>
   <jsp:include page="footer.jsp"></jsp:include>
-  
+ <script type="text/javascript" src="resources/js/validate/form-field-tooltip.js" charset="utf-8"></script>
+ <script type="text/javascript" src="resources/js/validate/rounded-corners.js" charset="utf-8"></script>
